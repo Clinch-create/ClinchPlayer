@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.ClinchPlayer" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

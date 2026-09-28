@@ -1,0 +1,27 @@
+CLINCH PLAYER - CONTINUE WATCHING UPDATE
+Fecha: 2026-09-21
+
+Implementado sobre el proyecto enviado por Ricardo:
+- Continue Watching unificado para peliculas y series.
+- Las series guardan serie, temporada, episodio, URL, posicion y duracion.
+- Barra amarilla de progreso para episodios.
+- La tarjeta muestra T# • E#.
+- Usa imagen del episodio cuando esta disponible; fallback a portada de la serie.
+- Reanuda el episodio desde la posicion guardada.
+- Guarda cada 5 segundos y al salir.
+- Empieza a guardar despues de 15 segundos.
+- Al llegar aproximadamente al 95%, el episodio se considera completado y se elimina de Continue Watching.
+- Solo conserva el episodio mas reciente de cada serie.
+- Peliculas y series se ordenan juntas por actividad reciente.
+- Se conserva el flujo actual de autoplay, episodio anterior/siguiente, favoritos y controles del player.
+
+Archivos modificados:
+app/src/main/java/com/example/clinchplayer/MainActivity.kt
+app/src/main/java/com/example/clinchplayer/data/ContinueWatchingManager.kt
+app/src/main/java/com/example/clinchplayer/ui/home/HomeScreen.kt
+app/src/main/java/com/example/clinchplayer/ui/series/SeriesViewModel.kt
+app/src/main/java/com/example/clinchplayer/ui/series/SeriesPlayerScreen.kt
+
+IMPORTANTE:
+El APK anterior de app/release fue omitido para evitar instalar por accidente un APK que no contiene estos cambios.
+Abre el proyecto en Android Studio y usa Build > Rebuild Project / Build APK(s) para generar un APK nuevo.

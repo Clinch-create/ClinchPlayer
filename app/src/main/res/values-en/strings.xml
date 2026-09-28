@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clinch Player</string>
+
+    <!-- MAIN MENU -->
+    <string name="home">Home</string>
+    <string name="catch_up">Catch Up</string>
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="movies">Movies</string>
+    <string name="series">Series</string>
+    <string name="live_tv">Live TV</string>
+    <string name="settings">Settings</string>
+    <string name="expiration">Expiration</string>
+
+    <!-- NAVIGATION -->
+    <string name="back">Back</string>
+    <string name="play">Play</string>
+    <string name="categories">Categories</string>
+
+    <!-- HOME -->
+    <string name="continue_watching">Continue Watching</string>
+    <string name="recently_added">Recently Added</string>
+    <string name="featured_movies">Featured Movies</string>
+    <string name="featured_series">Featured Series</string>
+
+    <!-- SETTINGS -->
+    <string name="language">Language</string>
+    <string name="spanish">Español</string>
+    <string name="english">English</string>
+
+    <!-- MESSAGES -->
+    <string name="loading">Loading…</string>
+    <string name="no_results">No results</string>
+    <string name="connection_error">Connection error</string>
+    <string name="category_connection_error">Connection error while loading categories</string>
+
+</resources>

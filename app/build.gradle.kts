@@ -13,8 +13,8 @@ android {
         applicationId = "com.example.clinchplayer"
         minSdk = 23
         targetSdk = 37
-        versionCode = 3
-        versionName = "1.3"
+        versionCode = 6
+        versionName = "1.3.3"
 
     }
 

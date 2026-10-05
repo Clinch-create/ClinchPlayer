@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "1.3.2",
+  "versionCode": 6,
+  "versionName": "1.3.3",
   "apkUrl": "https://github.com/Clinch-create/ClinchPlayer/releases/latest/download/ClinchPlayer.apk",
-  "notes": "Nueva versión con soporte Español/English, mejoras en Continue Watching y correcciones generales.",
+  "notes": "Clinch Player v1.3.3 - Mejoras, correcciones y actualización desde la propia aplicación.",
   "required": false
 }
